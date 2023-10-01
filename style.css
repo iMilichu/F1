@@ -1,0 +1,434 @@
+.contenedor{
+    width: 670px;
+    height: 5px;
+}
+
+.imagen{
+    position: relative;
+    top: 156px;
+    left: 250px;
+    width: 210px;
+    transition: 3s;
+}
+
+.imagen2{
+    position: relative;
+    top: 405px;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    transition: 2s;
+}
+
+.titulo{
+    position: relative;
+    top: 250px;
+    font-size: 25px;
+    font-family: arial;
+    transition: 3s;
+}
+
+.barra{
+    display: block;
+    position: relative;
+    background-color: #F12F2F;
+    right: 10px;
+    top: 350px;
+    width: 1538px;
+    height: 103px;
+    cursor: pointer;
+    transition: 3s;
+}
+
+.barra:focus{
+    top: -120px;
+    height: 573px; 
+    cursor: default;
+}
+
+.contenedor:hover .titulo{
+    top: -15px;
+}
+
+.contenedor:hover .imagen{
+    top: -109px;
+}
+
+.contenedor:hover .imagen2{
+    z-index: -2;
+}
+
+.seccion1{
+    position: relative;
+    left: 0px;
+    bottom: 2px;
+    visibility: hidden;
+}
+
+.redirect1{
+    position: relative;
+    font-size: 35px;
+    font-family: arial;
+    font-weight: bold;
+    color: black;
+    bottom: 39px;
+    left: 80px;
+    visibility: hidden;
+}
+
+.grupo1{
+    position: relative;
+    display: block;
+    bottom: 590px;
+    left: 70px;
+    width: 300px;
+    height: 340px;
+    visibility: hidden;
+    transition: 2s;
+}
+
+.grupo1:hover .seccion1{
+    transition: 1s;
+    width: 330px;
+    height: 330px;
+    left: -15px;
+}
+
+.grupo1:hover .redirect1{
+    transition: 1s;
+    font-size: 40px;
+    left: 70px;
+}
+
+.seccion2{
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    visibility: hidden;
+}
+
+.redirect2{
+    position: relative;
+    font-size: 35px;
+    font-family: arial;
+    font-weight: bold;
+    color: black;
+    bottom: 38px;
+    left: 55px;
+    visibility: hidden;
+}
+
+.grupo2{
+    position: relative;
+    display: block;
+    bottom: 933px;
+    left: 410px;
+    width: 300px;
+    height: 340px;
+    visibility: hidden;
+    transition: 2s;
+}
+
+.grupo2:hover .seccion2{
+    transition: 1s;
+    width: 330px;
+    height: 330px;
+    left: -15px;
+}
+
+.grupo2:hover .redirect2{
+    transition: 1s;
+    font-size: 40px;
+    left: 45px;
+}
+
+.seccion3{
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    visibility: hidden;
+}
+
+.redirect3{
+    position: relative;
+    font-size: 35px;
+    font-family: arial;
+    font-weight: bold;
+    color: black;
+    bottom: 37px;
+    left: 110px;
+    visibility: hidden;
+}
+
+.grupo3{
+    position: relative;
+    display: block;
+    bottom: 1273px;
+    left: 750px;
+    width: 300px;
+    height: 340px;
+    visibility: hidden;
+    transition: 2s;
+}
+
+.grupo3:hover .seccion3{
+    transition: 1s;
+    width: 330px;
+    height: 330px;
+    left: -15px;
+}
+
+.grupo3:hover .redirect3{
+    transition: 1s;
+    font-size: 40px;
+    left: 107px;
+}
+
+.seccion4{
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    visibility: hidden;
+}
+
+.redirect4{
+    position: relative;
+    font-size: 35px;
+    font-family: arial;
+    font-weight: bold;
+    color: black;
+    bottom: 39px;
+    left: 90px;
+    visibility: hidden;
+}
+
+.grupo4{
+    position: relative;
+    display: block;
+    bottom: 1614px;
+    left: 1150px;
+    width: 300px;
+    height: 340px;
+    visibility: hidden;
+    transition: 2s;
+}
+
+.grupo4:hover .seccion4{
+    transition: 1s;
+    width: 330px;
+    height: 330px;
+    left: -15px;
+}
+
+.grupo4:hover .redirect4{
+    transition: 1s;
+    font-size: 40px;
+    left: 85px;
+}
+
+.contenedor2{
+    width: 5px;
+    height: 5px;
+}
+
+.contenedor2:hover .seccion1{
+    
+    visibility: visible;
+}
+
+.contenedor2:hover .redirect1{
+    
+    visibility: visible;
+}
+
+.contenedor2:hover .seccion2{
+    
+    visibility: visible;
+}
+
+.contenedor2:hover .redirect2{
+    
+    visibility: visible;
+}
+
+.contenedor2:hover .seccion3{
+    
+    visibility: visible;
+}
+
+.contenedor2:hover .redirect3{
+    
+    visibility: visible;
+}
+
+.contenedor2:hover .seccion4{
+    
+    visibility: visible;
+}
+
+.contenedor2:hover .redirect4{
+    
+    visibility: visible;
+}
+
+
+<-Historia->
+
+
+.picky{
+    position: fixed;
+    display: block;
+}
+
+.blac{
+    position: fixed;
+    display: block;
+    width: 1533px;
+    height: 60px;
+    top: 0px;
+    left: 0px;
+    border: 1px solid #BDBDBD;
+    background-color: white;
+    z-index: 1;
+}
+
+.relink1{
+    text-decoration: none;
+    position: fixed;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 25px;
+    left: 967px;
+    bottom: 680px;
+    color: black;
+    z-index: 2;
+    transition: 1s;
+}
+
+.relink1:hover{
+    transition: 1s;
+    bottom: 685px;
+}
+
+.relink2{
+    text-decoration: none;
+    position: fixed;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 25px;
+    left: 1080px;
+    bottom: 680px;
+    color: black;
+    z-index: 2;
+    transition: 1s;
+}
+
+.relink2:hover{
+    transition: 1s;
+    bottom: 685px;
+}
+
+.relink3{
+    text-decoration: none;
+    position: fixed;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 25px;
+    left: 1230px;
+    bottom: 680px;
+    color: black;
+    z-index: 2;
+    transition: 1s;
+}
+
+.relink3:hover{
+    transition: 1s;
+    bottom: 685px;
+}
+
+.relink4{
+    text-decoration: none;
+    position: fixed;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 25px;
+    left: 1350px;
+    bottom: 680px;
+    color: black;
+    z-index: 2;
+    transition: 1s;
+}
+
+.relink4:hover{
+    transition: 1s;
+    bottom: 685px;
+}
+
+.yt{
+    position: relative;
+}
+
+.yt2{
+    position: relative;
+    bottom: 15px;
+    right: 10px;
+}
+
+.yt2:hover .yt3{
+    visibility: visible;
+}
+
+.yt2:hover .yt{
+    visibility: hidden;
+}
+
+.yt3{
+    position: relative;
+    right: 40px;
+    visibility: hidden;
+}
+
+.wiki1{
+    text-decoration: none;
+    transition: 1s;
+}
+
+.wiki1:hover{
+    transition: 1s;
+    text-decoration: underline;
+    text-decoration-color: #F12F2F;
+}
+
+.wiki2{
+    text-decoration: none;
+    transition: 1s;
+}
+
+.wiki2:hover{
+    transition: 1s;
+    text-decoration: underline;
+    text-decoration-color: #F12F2F;
+}
+
+
+.wiki3{
+    text-decoration: none;
+    transition: 1s;
+}
+
+.wiki3:hover{
+    transition: 1s;
+    text-decoration: underline;
+    text-decoration-color: #F12F2F;
+}
+
+.wiki4{
+    text-decoration: none;
+    transition: 1s;
+}
+
+.wiki4:hover{
+    transition: 1s;
+    text-decoration: underline;
+    text-decoration-color: #F12F2F;
+}
