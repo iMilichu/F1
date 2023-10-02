@@ -299,7 +299,7 @@
     font-family: arial;
     font-size: 25px;
     left: 967px;
-    bottom: 680px;
+    bottom: 710px;
     color: black;
     z-index: 2;
     transition: 1s;
@@ -307,7 +307,7 @@
 
 .relink1:hover{
     transition: 1s;
-    bottom: 685px;
+    bottom: 715px;
 }
 
 .relink2{
@@ -317,7 +317,7 @@
     font-family: arial;
     font-size: 25px;
     left: 1080px;
-    bottom: 680px;
+    bottom: 710px;
     color: black;
     z-index: 2;
     transition: 1s;
@@ -325,7 +325,7 @@
 
 .relink2:hover{
     transition: 1s;
-    bottom: 685px;
+    bottom: 715px;
 }
 
 .relink3{
@@ -335,7 +335,7 @@
     font-family: arial;
     font-size: 25px;
     left: 1230px;
-    bottom: 690px;
+    bottom: 710px;
     color: black;
     z-index: 2;
     transition: 1s;
@@ -343,7 +343,7 @@
 
 .relink3:hover{
     transition: 1s;
-    bottom: 685px;
+    bottom: 715px;
 }
 
 .relink4{
